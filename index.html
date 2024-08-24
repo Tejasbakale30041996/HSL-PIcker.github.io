@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        HSL Picker
+    </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    
+    <h1>HSL picker (JavaScript)</h1>
+
+    <p class="text">
+    Click the color-wheel to pick a Hue from <b>0</b> to <b>360</b> (going counter-clock-wise).
+    
+    
+    Drag the corresponding sliders to pick the Saturation and Lightness (from <b>0</b>% to <b>100</b>%).
+    
+    
+    You'll see the HSL numeric values and the sample color, in the rectangle below.
+    </p>
+    
+    <div id="container" class="hsl-container"></div>
+    
+    <div id="sample-container" class="sample-container">
+      <p class="text"><span id="hsl-values">Hue: <b>0</b>, Saturation: <b>100</b>%, Lightness: <b>50</b>%</span>
+      
+    See sample below:</p>
+    <div id="sample" class="sample">&nbsp;</div>
+    </div>
+
+
+
+<script src="./picker.js"></script>
+    
+</body>
+</html>
